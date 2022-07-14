@@ -1,0 +1,31 @@
+{
+  "name": "simple-calendar-dates",
+  "private": true,
+  "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/simple-calendar-dates.umd.js",
+  "module": "./dist/simple-calendar-dates.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/simple-calendar-dates.es.js",
+      "require": "./dist/simple-calendar-dates.umd.js"
+    }
+  },
+  "keywords": [
+    "calendar",
+    "dates"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.0.0"
+  },
+  "peerDependencies": {
+    "dayjs": "^1.11.3"
+  }
+}
