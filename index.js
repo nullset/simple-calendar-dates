@@ -6,8 +6,8 @@ function monthToDays(date, type = 0) {
   return Array.from(Array(date.daysInMonth()), (_, i) => {
     const day = i + 1;
     return {
-      date: `${year}-${month}-${day.toString().length === 1 ? `0${day}` : day}`,
-      day,
+      iso: `${year}-${month}-${day.toString().length === 1 ? `0${day}` : day}`,
+      date: day,
       type,
     };
   });

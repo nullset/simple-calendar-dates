@@ -210,9 +210,9 @@ This will return an array like this:
 ]
 ```
 
-Each object in the array will have three values: `date`, `day`, and `type`.
+Each object in the array will have three values: `iso`, `day`, and `type`.
 
-`date` is the ISO formatted date string (YYYY-MM-DD).
+`iso` is the ISO formatted date string (YYYY-MM-DD).
 
 `day` is the numeric day of the object (eg, `6` for the 6th of the month).
 
